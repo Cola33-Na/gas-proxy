@@ -1,0 +1,12 @@
+name = "gas-proxy"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = "./static"
+
+[build]
+command = ""
+
+# 環境變數（部署後在 Dashboard 設定）
+[env.production]
+vars = { ENVIRONMENT = "production" }
